@@ -36,3 +36,127 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+ 
+  width:30rem;
+  border: 2px solid rgb(30, 54, 189);
+  align-self: center;
+  margin: auto;
+  margin-top: 10rem;
+  padding: 30px;
+  border-radius: 5%;
+
+}
+
+
+.header-app{
+  text-align: left;
+  margin-left: 1rem;
+  font-weight: bold;
+}s
+
+.task-item{
+  background: #f4f4f4;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.task-item-important{
+  background: #f4f4f4;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-left: 5px solid green;
+}
+
+.header{
+  display: flex;
+  
+}
+
+body{
+  font-family: "Poppins",sans-serif;
+}
+
+.btn{
+    display:inline-block;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+    height:5rem;
+}
+
+.title{
+  margin-left:1rem;
+}
+
+.task-title{
+  display:flex;
+  justify-content: space-between;
+}
+
+.task-delete{
+  float:right;
+  border: 2px solid red;
+  padding:5px;
+}
+
+.task-delete:hover{
+  float:right;
+  border: 2px solid red;
+  padding:5px;
+  background-color:rgba(228, 5, 5, 0.2);
+}
+input, label {
+  display:block;
+  font-size: 1.2rem;
+}
+
+input{
+  font-size: 1.5rem;
+  width:100%;
+
+}
+
+.form-control{
+  width: auto;
+    height: 40px;
+    margin: 5px;
+    padding: 3px 7px;
+    font-size: 17px;
+}
+
+.label-important{
+  display:block !important;
+  margin-top:1rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  
+
+}
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkbox{
+    height: 1.3rem;
+    margin: 5px;
+    padding: 3px 7px;
+
+}
+
+.btn1{
+  background: #000;
+  color: #fff;
+
+}
