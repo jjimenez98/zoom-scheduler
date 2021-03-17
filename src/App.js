@@ -31,7 +31,7 @@ const App = () => {
 
   const fetchTasks = async () => {
     const res = await fetch(
-      "https://jjimenez98.github.io/zoom-scheduler/tasks"
+      "https://my-json-server.typicode.com/jjimenez98/zoom-scheduler/tasks"
     );
     const data = await res.json();
     return data;
@@ -39,7 +39,7 @@ const App = () => {
 
   const fetchTask = async (id) => {
     const res = await fetch(
-      `https://jjimenez98.github.io/zoom-scheduler/tasks/${id}`
+      `https://my-json-server.typicode.com/jjimenez98/zoom-scheduler/tasks/${id}`
     );
     const data = await res.json();
     return data;
