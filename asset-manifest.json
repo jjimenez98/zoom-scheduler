@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/zoom-scheduler/static/css/main.d92de9cd.chunk.css",
+    "main.js": "/zoom-scheduler/static/js/main.9df5f07a.chunk.js",
+    "main.js.map": "/zoom-scheduler/static/js/main.9df5f07a.chunk.js.map",
+    "runtime-main.js": "/zoom-scheduler/static/js/runtime-main.11401c67.js",
+    "runtime-main.js.map": "/zoom-scheduler/static/js/runtime-main.11401c67.js.map",
+    "static/js/2.b56595a1.chunk.js": "/zoom-scheduler/static/js/2.b56595a1.chunk.js",
+    "static/js/2.b56595a1.chunk.js.map": "/zoom-scheduler/static/js/2.b56595a1.chunk.js.map",
+    "static/js/3.9b9380f6.chunk.js": "/zoom-scheduler/static/js/3.9b9380f6.chunk.js",
+    "static/js/3.9b9380f6.chunk.js.map": "/zoom-scheduler/static/js/3.9b9380f6.chunk.js.map",
+    "index.html": "/zoom-scheduler/index.html",
+    "static/css/main.d92de9cd.chunk.css.map": "/zoom-scheduler/static/css/main.d92de9cd.chunk.css.map",
+    "static/js/2.b56595a1.chunk.js.LICENSE.txt": "/zoom-scheduler/static/js/2.b56595a1.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/zoom-scheduler/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11401c67.js",
+    "static/js/2.b56595a1.chunk.js",
+    "static/css/main.d92de9cd.chunk.css",
+    "static/js/main.9df5f07a.chunk.js"
+  ]
+}
