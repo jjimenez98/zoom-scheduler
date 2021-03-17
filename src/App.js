@@ -46,26 +46,34 @@ const App = () => {
   };
 
   const deleteTask = async (id) => {
-    const res = await fetch(`http://localhost:5000/tasks/${id}`, {
-      method: "DELETE",
-    });
+    const res = await fetch(
+      `https://my-json-server.typicode.com/jjimenez98/zoom-scheduler/tasks/${id}`,
+      {
+        method: "DELETE",
+      }
+    );
     setTasks(tasks.filter((task) => task.id !== id));
   };
 
   const addTask = async (task) => {
-    const res = await fetch("http://localhost:5000/tasks", {
-      method: "POST",
-      headers: {
-        "Content-type": "application/json",
-      },
-      body: JSON.stringify(task),
-    });
+    const res = await fetch(
+      "https://my-json-server.typicode.com/jjimenez98/zoom-scheduler/tasks",
+      {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json",
+        },
+        body: JSON.stringify(task),
+      }
+    );
     const data = await res.json();
     setTasks([...tasks, data]);
   };
 
   const updateTask = async (id) => {
-    const res = await fetch(`http://localhost:5000/tasks/${id}`);
+    const res = await fetch(
+      `https://my-json-server.typicode.com/jjimenez98/zoom-scheduler/tasks/${id}`
+    );
     const data = await res.json();
     if (update == false) {
       setInputtitle(data.title);
@@ -93,13 +101,16 @@ const App = () => {
       time: time,
     };
 
-    const res = await fetch(`http://localhost:5000/tasks/${updateID}`, {
-      method: "PUT",
-      headers: {
-        "Content-type": "application/json",
-      },
-      body: JSON.stringify(updTask),
-    });
+    const res = await fetch(
+      `https://my-json-server.typicode.com/jjimenez98/zoom-scheduler/tasks/${updateID}`,
+      {
+        method: "PUT",
+        headers: {
+          "Content-type": "application/json",
+        },
+        body: JSON.stringify(updTask),
+      }
+    );
 
     const data = await res.json();
 
