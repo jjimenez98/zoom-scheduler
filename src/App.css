@@ -54,7 +54,7 @@
   text-align: left;
   margin-left: 1rem;
   font-weight: bold;
-}s
+}
 
 .task-item{
   background: #f4f4f4;
@@ -107,6 +107,7 @@ body{
   float:right;
   border: 2px solid red;
   padding:5px;
+  height:1rem;
 }
 
 .task-delete:hover{

@@ -51,7 +51,7 @@ const Task = (props) => {
                 onClick={() => props.onDelete(props.task.id)}
                 className="task-delete"
               >
-                <p className="deletep">Delete</p>
+                Delete
               </div>
             </div>
             <p style={{ marginBottom: "0", marginTop: "0" }}>
